@@ -1,0 +1,77 @@
+CRITICAL - 2024-06-16 16:25:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sekolah/tampil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sekolah/tampil.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\Sekolah.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\Sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:25:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sekolah/tambah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sekolah/tambah.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tambah', [], true)
+ 3 APPPATH\Controllers\Sekolah.php(40): view('sekolah/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:26:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sekolah/tampil.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sekolah/tampil.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\Sekolah.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\Sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Sekolah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:37:27 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 APPPATH\Views\kecamatan\tampil.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\new XAMPP\\htdocs\\sig\\app\\Views\\kecamatan\\tampil.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\new XAMPP\\htdocs\\sig\\app\\Views\\kecamatan\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(16): view('kecamatan/tampil', [...])
+ 6 APPPATH\Controllers\Kecamatan.php(7): App\Controllers\Kecamatan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kecamatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:37:28 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 APPPATH\Views\kecamatan\tampil.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\new XAMPP\\htdocs\\sig\\app\\Views\\kecamatan\\tampil.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\new XAMPP\\htdocs\\sig\\app\\Views\\kecamatan\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(16): view('kecamatan/tampil', [...])
+ 6 APPPATH\Controllers\Kecamatan.php(7): App\Controllers\Kecamatan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kecamatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:37:32 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 APPPATH\Views\kecamatan\tampil.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\new XAMPP\\htdocs\\sig\\app\\Views\\kecamatan\\tampil.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\new XAMPP\\htdocs\\sig\\app\\Views\\kecamatan\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(16): view('kecamatan/tampil', [...])
+ 6 APPPATH\Controllers\Kecamatan.php(7): App\Controllers\Kecamatan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kecamatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-16 16:37:37 --> ErrorException: Undefined property: stdClass::$npsn
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 APPPATH\Views\kecamatan\tampil.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$npsn', 'C:\\xampp\\new XAMPP\\htdocs\\sig\\app\\Views\\kecamatan\\tampil.php', 39)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\new XAMPP\\htdocs\\sig\\app\\Views\\kecamatan\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(16): view('kecamatan/tampil', [...])
+ 6 APPPATH\Controllers\Kecamatan.php(7): App\Controllers\Kecamatan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Kecamatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
